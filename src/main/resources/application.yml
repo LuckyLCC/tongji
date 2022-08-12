@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.29.0.203:3306/jtms?useSSL=false&autoReconnect=true
+    username: root
+    password: root123
+
+
+#  data:
+#    mongodb:
+#      host: 172.29.2.21
+#      port: 27017
+#      username: jw_data_dev
+#      password: huwo123456
+#      database: jw_data_upstream_dev
+  data:
+    mongodb:
+      host: 172.29.2.30
+      port: 20000
+      username: jw_data
+      password: Huwo_jw_123!@#
+      database: jw_data_upstream
+
+server:
+  port: 9000
+
+
